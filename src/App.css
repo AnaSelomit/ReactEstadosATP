@@ -1,0 +1,152 @@
+.error {
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: linear-gradient(
+        190deg,
+        #f29573 0,
+        #f48d75 6.25%,
+        #f48578 12.5%,
+        #f37b7b 18.75%,
+        #f0717f 25%,
+        #ec6682 31.25%,
+        #e65a87 37.5%,
+        #de4e8b 43.75%,
+        #d44290 50%,
+        #c83796 56.25%,
+        #b92f9d 62.5%,
+        #a92ca4 68.75%,
+        #962dac 75%,
+        #7f31b4 81.25%,
+        #6337bc 87.5%,
+        #3a3dc3 93.75%,
+        #0043c9 100%
+    );
+}
+
+.box0 {
+    background-color: #fff1f1;
+    padding: 3.5rem 5rem;
+    border-radius: 10px;
+}
+
+.box1 {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    border: solid 2px #aa007f;
+    border-radius: 50%;
+    padding: 0.6rem;
+    font-size: 2rem;
+    color: #aa007f;
+    margin: 0.5rem;
+    transition: 1s;
+}
+
+.icons:hover {
+    border: solid 2px #ff21c8;
+    border-radius: 50%;
+    padding: 0.6rem;
+    font-size: 2rem;
+    color: #600090;
+    margin: 0.5rem;
+}
+
+.formulario .btn {
+    background-color: #b92f9d;
+    padding: 0.4rem 3rem;
+    font-family: Belanosima;
+    font-size: 1rem;
+    color: #f3dbf7;
+    margin-top: 1.5rem;
+    transition: 1s;
+}
+
+.formulario .btn:hover {
+    padding: 0.4rem 3rem;
+    background-image: linear-gradient(
+        190deg,
+        #f29573 0,
+        #f48d75 6.25%,
+        #f48578 12.5%,
+        #f37b7b 18.75%,
+        #f0717f 25%,
+        #ec6682 31.25%,
+        #e65a87 37.5%,
+        #de4e8b 43.75%,
+        #d44290 50%,
+        #c83796 56.25%,
+        #b92f9d 62.5%,
+        #a92ca4 68.75%,
+        #962dac 75%,
+        #7f31b4 81.25%,
+        #6337bc 87.5%,
+        #3a3dc3 93.75%,
+        #0043c9 100%
+    );
+    font-size: 1rem;
+    color: white;
+    border: none;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    visibility: hidden;
+}
+
+.content.show1 {
+    visibility: visible;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-content {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
