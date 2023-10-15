@@ -8,6 +8,9 @@ function App() {
             <main>
                 <Registro></Registro>
             </main>
+            <footer>
+                <Footer></Footer>
+            </footer>
         </>
     );
 }
