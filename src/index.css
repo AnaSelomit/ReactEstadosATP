@@ -35,3 +35,18 @@ label {
     font-size: 1rem;
     color: #424242;
 }
+
+.footer {
+    width: 100%;
+    margin: 0;
+    height: 70px;
+    background-color: purple;
+    text-align: center;
+}
+
+h5 {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #ffffff;
+}
