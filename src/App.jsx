@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Registro from "./componenetes/Registro";
+import Footer from "./componenetes/Footer";
 
 function App() {
     return (
